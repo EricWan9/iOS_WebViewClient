@@ -16,6 +16,7 @@
 		A66F086B286AA3A40078C405 /* VisitorClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F086A286AA3A40078C405 /* VisitorClientTests.swift */; };
 		A66F0875286AA3A40078C405 /* VisitorClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F0874286AA3A40078C405 /* VisitorClientUITests.swift */; };
 		A66F0877286AA3A40078C405 /* VisitorClientUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F0876286AA3A40078C405 /* VisitorClientUITestsLaunchTests.swift */; };
+		A66F0884286AA3FA0078C405 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A66F0883286AA3FA0078C405 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		A66F0870286AA3A40078C405 /* VisitorClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VisitorClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A66F0874286AA3A40078C405 /* VisitorClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorClientUITests.swift; sourceTree = "<group>"; };
 		A66F0876286AA3A40078C405 /* VisitorClientUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitorClientUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A66F0883286AA3FA0078C405 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				A66F085D286AA3A40078C405 /* Persistence.swift */,
 				A66F085F286AA3A40078C405 /* VisitorClient.xcdatamodeld */,
 				A66F085A286AA3A40078C405 /* Preview Content */,
+				A66F0883286AA3FA0078C405 /* WebView.swift */,
 			);
 			path = VisitorClient;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A66F085E286AA3A40078C405 /* Persistence.swift in Sources */,
+				A66F0884286AA3FA0078C405 /* WebView.swift in Sources */,
 				A66F0861286AA3A40078C405 /* VisitorClient.xcdatamodeld in Sources */,
 				A66F0857286AA3A20078C405 /* ContentView.swift in Sources */,
 				A66F0855286AA3A20078C405 /* VisitorClientApp.swift in Sources */,
